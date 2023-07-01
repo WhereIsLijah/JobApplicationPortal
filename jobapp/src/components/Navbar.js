@@ -5,11 +5,11 @@ import logoImage from "../Images/favicon.jpg";
 
 function Navbar() {
   return (
-      <div className="container">
+      <div className="navbar-container">
         <Link to="https://www.geotab.com/">
-          <img src={logoImage} alt="logo_image" className="container-logo" />\
+          <img src={logoImage} alt="logo_image" className="navbar-container-logo" />\
         </Link>
-        <div className="container-text">GEOTAB</div>
+        <div className="navbar-container-text">GEOTAB</div>
       </div>
   );
 }

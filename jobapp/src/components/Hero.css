@@ -1,0 +1,28 @@
+.hero-container{
+    width: 100%;
+    height: 20px;  
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-container-text{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    text-align: center;
+}
+
+.hero-container-text i{
+    font-size: 10px;
+    color: white;
+}
+
+.hero-container-text > div{
+    margin-right: 10px;
+}
+
+.fa-circle{
+    color: white;
+}

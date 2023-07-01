@@ -2,18 +2,18 @@ import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
 
 
 function App() {
   return (
-    <div className='container'>
+    <>
     <Router>
-      <Navbar/ >
         <Routes>
-            <Route path='/' />  
+            <Route path='/' exact Component={Home}/>  
         </Routes>
      </Router>
-     </div>
+     </>
   );
 }
 
