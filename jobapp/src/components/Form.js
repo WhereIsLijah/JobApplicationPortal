@@ -3,32 +3,6 @@ import { useState } from "react";
 import { Button } from "./Button";
 import "./Form.css";
 
-// function Form() {
-//   return (
-//     <div className="form-container">
-//       <form action="/submit" method="POST">
-//         <div className="form-text">Apply For This Job</div>
-//         <label htmlFor="first-name">First Name*</label>
-//         <label htmlFor="last-name">Last Name* </label>
-//         <input type="text" id="first-name"/>
-//         <input type="text" id="last-name"/>
-//         <label htmlFor="phone" id="phone">Phone*</label>
-//         <label htmlFor="email">Email*</label>
-//         <input type="text" id="phone" placeholder="123-456-789"/>
-//         <input type="text" id="email" placeholder="ex: info@mysite.com"/>
-//         <label htmlFor="link-resume">Link to CV/Resume *</label>
-//         <input type="text" id="link-resume"/>
-//         <label htmlFor="linkedin">LinkedIn URL</label>
-//         <label htmlFor="other-website">Other Website</label>
-//         <input type="text" id="linkedin"/>
-//         <input type="text" id="other-website"/>
-//         <label htmlFor="additional-comments">Additonal Comments</label>
-//         <input type="text" id="additional-comments" placeholder="Add anything else you want to share"/>
-//         <Button>Apply now</Button>
-//       </form>
-//     </div>
-//   );
-// };
 function Form() {
   return (
     <div className="form-container">

@@ -75,12 +75,20 @@ WSGI_APPLICATION = 'JobApplicationPortal.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# Connection to MySql
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "job_form",
+        "HOST": "127.0.0.1",
+        "PORT": "3307",
+        "USER": "root",
+        "PASSWORD": "root",
     }
 }
+
+
+
 
 
 # Password validation
