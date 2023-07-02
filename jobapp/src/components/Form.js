@@ -45,22 +45,22 @@ function Form() {
     <td><label htmlFor="last-name">Last Name* </label></td>
   </tr>
   <tr>
-    <td><input type="text" id="first-name"/></td>
-    <td><input type="text" id="last-name"/></td>
+    <td><input type="text" id="first-name" required /></td>
+    <td><input type="text" id="last-name" required /></td>
   </tr>
   <tr>
     <td><label htmlFor="phone" id="phone">Phone*</label></td>
     <td><label htmlFor="email">Email*</label></td>
   </tr>
   <tr>
-    <td><input type="text" id="phone" placeholder="123-456-789"/></td>
-    <td><input type="text" id="email" placeholder="ex: info@mysite.com"/></td>
+    <td><input type="text" id="phone" placeholder="123-456-789" required/></td>
+    <td><input type="text" id="email" placeholder="ex: info@mysite.com" required/></td>
   </tr>
   <tr>
     <td ><label htmlFor="link-resume">Link to CV/Resume *</label></td>
   </tr>
   <tr>
-    <td ><input type="text" id="link-resume" className="extra-input-width"/></td>
+    <td ><input type="text" id="link-resume" className="extra-input-width" required/></td>
   </tr>
   <tr>
     <td><label htmlFor="linkedin">LinkedIn URL</label></td>
