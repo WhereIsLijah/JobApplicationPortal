@@ -62,9 +62,9 @@ function Form() {
   );
 }
 
-
 export default Form;
 
 // Attach Resume*
 // Implement different language options
 // Add pages and show what represents it [My info, my experience, application questions, Terms and condtions, Review]
+// To handle sensitive data https://www.geeksforgeeks.org/protecting-sensitive-information-while-deploying-django-project/
