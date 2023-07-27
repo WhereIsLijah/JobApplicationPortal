@@ -4,11 +4,9 @@ import {Link} from "react-router-dom";
 
 export const Button = ({children}) => {
   return (
-    <Link to="/" className="btn-mobile">
         <button type="submit" className='btn'>
             {children}
         </button>
-    </Link>
   )
 }
 
