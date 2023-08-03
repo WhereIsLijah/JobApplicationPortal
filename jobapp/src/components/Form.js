@@ -20,10 +20,29 @@ const Form = () => {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(formData);
+      try{
+        const response = await fetch("ParseUrlHere", {
+          method:"POST",
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          body : JSON.stringify(formData),
+        });
+        if (response.ok) {
+          console.log("Request Successful");
+        }
+          else{
+          console.log("Request failed");
+          }
+         } catch(err) {
+          console.log("err");
+      }
+    };
+    
+
   };
 
   return (
