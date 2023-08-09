@@ -22,9 +22,8 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
       try{
-        const response = await fetch("ParseUrlHere", {
+        const response = await fetch("https://x.com", {
           method:"POST",
             headers: {
               'Content-Type': 'application/json',
@@ -42,9 +41,6 @@ const Form = () => {
       }
     };
     
-
-  };
-
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
